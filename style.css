@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #fafafa;
+  background-color: #6c5ce7; /* Roxo vibrante */
   font-family: 'Segoe UI', sans-serif;
   height: 100vh;
   display: flex;
@@ -11,13 +11,13 @@ body {
 
 .floating-message {
   font-size: 1.8em;
-  color: #6c5ce7;
+  color: #ffffff; /* Texto branco */
   animation: float 4s ease-in-out infinite;
   text-align: center;
-  padding: 20px;
-  background-color: #ffffffdd;
+  padding: 20px 30px;
+  background-color: rgba(255, 255, 255, 0.1); /* Fundo translúcido sutil */
   border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 @keyframes float {
